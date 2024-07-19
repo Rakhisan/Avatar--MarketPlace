@@ -3,7 +3,7 @@ import { avatarsArr } from "../data/avatar";
 import UserContext from "./userContext";
 
 function UserProvider({ children }) {
-  const [avatars, setAvatars] = useState(avatarsArr);
+  const [avatars] = useState(avatarsArr);
   const [count, setCount] = useState(0);
 
   const getSingleProduct = (id) => {

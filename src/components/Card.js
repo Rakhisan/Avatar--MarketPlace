@@ -7,7 +7,7 @@ import UserContext from "../contexts/userContext";
 import { useContext } from "react";
 
 function Card({ avatar }) {
-  const { count, setCount } = useContext(UserContext);
+  const { setCount } = useContext(UserContext);
 
   const incrementCount = () => {
     setCount((prevVal) => prevVal + 1);

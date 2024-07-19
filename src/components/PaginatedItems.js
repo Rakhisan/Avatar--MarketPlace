@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import ReactDOM from "react-dom";
+import React, { useState } from "react";
+// import ReactDOM from "react-dom";
 import ReactPaginate from "react-paginate";
 import CardItems from "./CardItems";
 import { useContext } from "react";

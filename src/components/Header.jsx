@@ -8,7 +8,7 @@ import {
   AiOutlineShoppingCart,
   AiOutlineSearch,
 } from "react-icons/ai";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 function Header() {
   const { count } = useContext(UserContext);
   return (
